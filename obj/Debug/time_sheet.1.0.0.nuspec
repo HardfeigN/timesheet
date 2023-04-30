@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>time_sheet</id>
+    <version>1.0.0</version>
+    <authors>time_sheet</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Pomelo.EntityFrameworkCore.MySql" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\labs\tz\timesheet\time_sheet\bin\Debug\net7.0-windows\time_sheet.runtimeconfig.json" target="lib\net7.0-windows7.0\time_sheet.runtimeconfig.json" />
+    <file src="E:\labs\tz\timesheet\time_sheet\bin\Debug\net7.0-windows\time_sheet.dll" target="lib\net7.0-windows7.0\time_sheet.dll" />
+  </files>
+</package>
